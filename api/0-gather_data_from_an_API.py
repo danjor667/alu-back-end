@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 # gathing data from an api
 
-if __name__ == "__main__":
-    import requests
-    import sys
+import requests
+import sys
 
+if __name__ == "__main__":
     user_id = int(sys.argv[1])
 
     r1 = requests.get("https://jsonplaceholder.typicode.com/users")
