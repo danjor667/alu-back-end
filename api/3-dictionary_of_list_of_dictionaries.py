@@ -19,8 +19,8 @@ if __name__ == "__main__":
     todos = r2.json()
 
     my_dict = {}
-    value = []
     for user in users:
+        value = []
         name = user.get("username")
         user_id = user.get("id")
         for todo in todos:
